@@ -41,7 +41,7 @@
 		D2FC043F1D1105B400271DA8 /* FJSCircleLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FC043E1D1105B400271DA8 /* FJSCircleLoadingView.m */; };
 		D2FC04411D112B8200271DA8 /* GradientLayer坐标系.png in Resources */ = {isa = PBXBuildFile; fileRef = D2FC04401D112B8200271DA8 /* GradientLayer坐标系.png */; };
 		D2FC04441D11309400271DA8 /* FJSCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FC04431D11309400271DA8 /* FJSCircleProgressView.m */; };
-		D2FC04461D11458100271DA8 /* FJSCircleAnimationView.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2FC04451D11458100271DA8 /* FJSCircleAnimationView.gif */; };
+		D2FC04481D11481500271DA8 /* FJSCircleAnimationView.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2FC04471D11481500271DA8 /* FJSCircleAnimationView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,7 +111,7 @@
 		D2FC04401D112B8200271DA8 /* GradientLayer坐标系.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GradientLayer坐标系.png"; sourceTree = "<group>"; };
 		D2FC04421D11309400271DA8 /* FJSCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSCircleProgressView.h; sourceTree = "<group>"; };
 		D2FC04431D11309400271DA8 /* FJSCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSCircleProgressView.m; sourceTree = "<group>"; };
-		D2FC04451D11458100271DA8 /* FJSCircleAnimationView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FJSCircleAnimationView.gif; sourceTree = "<group>"; };
+		D2FC04471D11481500271DA8 /* FJSCircleAnimationView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FJSCircleAnimationView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,7 +192,7 @@
 				D2FC043E1D1105B400271DA8 /* FJSCircleLoadingView.m */,
 				D2FC04421D11309400271DA8 /* FJSCircleProgressView.h */,
 				D2FC04431D11309400271DA8 /* FJSCircleProgressView.m */,
-				D2FC04451D11458100271DA8 /* FJSCircleAnimationView.gif */,
+				D2FC04471D11481500271DA8 /* FJSCircleAnimationView.gif */,
 				D2FC04401D112B8200271DA8 /* GradientLayer坐标系.png */,
 				D2BD74C31ACE38C20067F29A /* Launch Screen.xib */,
 				D23D54B91A0CAE1E00E515B0 /* Images.xcassets */,
@@ -346,7 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FC04461D11458100271DA8 /* FJSCircleAnimationView.gif in Resources */,
+				D2FC04481D11481500271DA8 /* FJSCircleAnimationView.gif in Resources */,
 				D2E9F42C1C76B33400CFDA55 /* Info.plist in Resources */,
 				D23D54B21A0CAE1E00E515B0 /* InfoPlist.strings in Resources */,
 				D23D54BA1A0CAE1E00E515B0 /* Images.xcassets in Resources */,
