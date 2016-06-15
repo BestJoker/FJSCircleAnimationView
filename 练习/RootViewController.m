@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view.
     
     self.cirCleView = [FJSCircleLoadingView circleLoadingViewWithFrame:CGRectMake(60, 100, 100, 100) LineColor:[UIColor redColor] LineBackgroundColor:[UIColor lightGrayColor]];
-    self.cirCleView.centerText = @"金";
+    self.cirCleView.centerText = @"Best";
     [self.view addSubview:self.cirCleView];
     
     [self.cirCleView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -31,7 +31,7 @@
     }];
     
     self.progressView = [FJSCircleProgressView circleLoadingViewWithFrame:CGRectMake(60, 300, 100, 100) LineColor:[UIColor redColor] LineBackgroundColor:[UIColor lightGrayColor]];
-    self.progressView.centerString = @"诗";
+    self.progressView.centerString = @"Joker";
     self.progressView.progress = 0.3;
     [self.view addSubview:self.progressView];
     

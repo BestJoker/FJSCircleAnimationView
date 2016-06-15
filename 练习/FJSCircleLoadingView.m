@@ -41,7 +41,7 @@
         UILabel *label   = [[UILabel alloc] initWithFrame:CGRectMake(minWidth * 0.2, minWidth * 0.2, minWidth * 0.6, minWidth * 0.6)];
         label.textAlignment = NSTextAlignmentCenter;
         label.textColor = lineColor;
-        label.font = [UIFont systemFontOfSize:minWidth * 0.4];
+        label.font = [UIFont systemFontOfSize:minWidth * 0.2];
         [self addSubview:label];
         self.centerLabel = label;
         

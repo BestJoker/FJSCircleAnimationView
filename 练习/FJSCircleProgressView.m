@@ -98,7 +98,7 @@ NSString * const FJSCircleProgressTextAnimationKey = @"FJSCircleProgressTextAnim
 - (void)setupTextAnimationLayer
 {
     NSMutableAttributedString * text = [[NSMutableAttributedString alloc] initWithString:(self.centerString.length?self.centerString:@"")];
-    [text addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:self.bounds.size.width * 0.4] range:NSMakeRange(0, text.length)];
+    [text addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:self.bounds.size.width * 0.2] range:NSMakeRange(0, text.length)];
     UIBezierPath *path = [FJSCircleProgressView pathRefFromText:text reversed:YES];
     CGPoint position  = CGPointMake(CGRectGetMaxX(self.bounds) - CGRectGetMidX(path.bounds), CGRectGetMaxY(self.bounds)- CGRectGetMidY(path.bounds));
     
