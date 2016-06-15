@@ -75,7 +75,7 @@
     self.circleAnimLayer.lineCap = @"round";
     self.circleAnimLayer.fillColor = [UIColor clearColor].CGColor;
     self.circleAnimLayer.lineWidth = self.lineWidth;
-    self.circleAnimLayer.strokeColor = self.lineBackgroundColor.CGColor;
+    self.circleAnimLayer.strokeColor = self.lineColor.CGColor;
     self.circleAnimLayer.path = [self getBezierPathWithScale:0.25].CGPath;
     
     //3.给上面一段弧形添加渐变颜色
